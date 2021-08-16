@@ -1,0 +1,67 @@
+.eventDetailsContainer {
+    padding: 1rem 0;
+}
+.EventDetailsCellMain {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.eventDetailsHeaderRow {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0 2rem;
+    text-align: left;
+    border-bottom: 1px dotted #efefef ;
+}
+.eventDetailsMainWrapper {
+    width: 500px;
+    padding: 1rem;
+}
+.detailedViewMain {
+    display: flex;
+    flex-flow: column;
+}
+.detailedViewMain > h2 {
+    text-align: center;
+}
+.physicalDetails {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+.pokemonAbilities {
+    display: flex;
+    padding: 0.5rem;
+}
+.pokemonAbilities span {
+    font-size: 16px;
+    font-weight: 600;
+}
+.abilitiesRow {
+    display: flex;
+    flex-flow: column;
+    font-size: 14px;
+    margin-left: 0.5rem;
+}
+.detailedViewMain h2::first-letter {
+    text-transform: capitalize;
+}
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.modalHeader h2 {
+    margin: 0;
+}
+.modalHeader span {
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid;
+}

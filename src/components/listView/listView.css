@@ -1,0 +1,63 @@
+.mainListView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.pokemonList {
+    width: 50%;
+}
+.eventContainer {
+    display: flex;
+    flex-flow: column;
+}
+.pokemonListHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #efefef;
+    padding: 1rem;
+}
+.pokemonListBody {
+    display: flex;
+    border-bottom: 1px dotted #efefef;
+    padding: 1rem;
+}
+.isFavourite {
+    background-color: greenyellow;
+    font-size: 14px;
+}
+.notFavourite {
+    background-color: grey;
+    color: #fff;
+    font-size: 14px;
+}
+.listBodySection {
+    max-height: 50vh;
+    overflow-y: auto;
+}
+.isFavouriteCheck {
+    cursor: pointer;
+    width: 30%;
+    justify-content: flex-end;
+    display: flex;
+}
+.isFavouriteCheck span {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4px;
+    width: 40%;
+}
+.pokemonNameWrapper {
+    width: 70%;
+    justify-content: flex-start;
+    display: flex;
+    cursor: pointer;
+}
+.pokemonName:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.pokemonName::first-letter {
+    text-transform: capitalize;
+}
